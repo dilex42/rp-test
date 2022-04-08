@@ -1,8 +1,12 @@
 on:
   push:
+    paths:
+      - project1/**
+      - project2/**
+      - pyproject.toml
     branches:
       - main
-name: release-please
+name: release-please-package-py
 jobs:
   release-please:
     runs-on: ubuntu-latest
@@ -12,3 +16,5 @@ jobs:
           release-type: python
           default-branch: main
           monorepo-tags: true
+          path: project1, project2
+          package-name: py-package

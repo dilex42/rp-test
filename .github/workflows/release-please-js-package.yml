@@ -4,7 +4,7 @@ on:
       - project-js/**
     branches:
       - main
-name: release-please
+name: release-please-package-js
 jobs:
   release-please:
     runs-on: ubuntu-latest
