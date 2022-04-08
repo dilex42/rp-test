@@ -16,5 +16,4 @@ jobs:
           release-type: python
           default-branch: main
           monorepo-tags: true
-          path: project1, project2
           package-name: py-package
