@@ -1,0 +1,4 @@
+[project]
+name = "rp-test"
+description = "rp-test example package"
+version = "0.1.0"
