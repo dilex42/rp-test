@@ -9,6 +9,6 @@ jobs:
     steps:
       - uses: google-github-actions/release-please-action@v3
         with:
-          release-type: python
+          release-type: simple
           default-branch: main
           package-name: rp-test
