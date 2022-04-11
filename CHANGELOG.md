@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.1.0](https://github.com/dilex42/rp-test/compare/v2.0.0...v2.1.0) (2022-04-11)
+
+
+ ### Features
+
+ * **release:** [DAT-575](https://github.com/dilex42/rp-test/issues/DAT-575) change release type from python to simple ([#21](https://github.com/dilex42/rp-test/issues/21)) ([51feb22](https://github.com/dilex42/rp-test/commit/51feb2279a57cc9a425b9dd74546c5287ccd5324))
+
+
+ ### Bug Fixes
+
+ * **project-2:** [DAT-344](https://github.com/dilex42/rp-test/issues/DAT-344) fix for new date ([#19](https://github.com/dilex42/rp-test/issues/19)) ([f7e5384](https://github.com/dilex42/rp-test/commit/f7e5384a26f7c868a73126265734f40568e6082e))
+
+
 ## [2.0.0](https://github.com/dilex42/rp-test/compare/v1.0.0...v2.0.0) (2022-04-11)
 
 
