@@ -15,6 +15,7 @@ jobs:
             [
               {"type":"feat","section":"Features","hidden":false},
               {"type":"fix","section":"Bug Fixes","hidden":false},
+              {"type":"Fix","section":"Bug Fixes","hidden":false},
               {"type":"docs","section":"Documentation","hidden":false},
               {"type":"refactor","section":"Refactor","hidden":false},
               {"type":"style","section":"Style","hidden":false},
