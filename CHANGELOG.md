@@ -1,5 +1,53 @@
 # Changelog
 
+## [3.0.0](https://github.com/dilex42/rp-test/compare/v2.1.0...v3.0.0) (2022-04-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* try breaking
+* add Feat (#26)
+* refactor to use JavaScript features not available in Node 6.
+* drop support for Node 42
+* `extends` key in config file is now used for extending other config files
+
+### Features
+
+* add ability to override merged commit message ([ad793b8](https://github.com/dilex42/rp-test/commit/ad793b867a875d345a03f6bcda3bd5cfe2c708ba))
+* add Feat ([#26](https://github.com/dilex42/rp-test/issues/26)) ([97f782f](https://github.com/dilex42/rp-test/commit/97f782fd5e560d2c16ef2071ca16b6b698c98dc9))
+* add Feat ([#28](https://github.com/dilex42/rp-test/issues/28)) ([022933a](https://github.com/dilex42/rp-test/commit/022933aebf0755193d230be140ec30f9c9b14309))
+* allow provided config object to extend other configs ([ac9b05a](https://github.com/dilex42/rp-test/commit/ac9b05aac625975fe90d9a3069c6882515f715ea))
+
+
+### Bug Fixes
+
+* add capital ([c3aebf2](https://github.com/dilex42/rp-test/commit/c3aebf270d9e36c765bdb2128bbd6deb64e508d1))
+* another message ([ad793b8](https://github.com/dilex42/rp-test/commit/ad793b867a875d345a03f6bcda3bd5cfe2c708ba))
+* capital letter try ([18c02d3](https://github.com/dilex42/rp-test/commit/18c02d3ec303e83b30abac9ad16d3326e729a635))
+* drop support for Node 6 ([1d8b37a](https://github.com/dilex42/rp-test/commit/1d8b37a83052bdc38d3bd43a3ef5c64dc4fe92e2))
+* fix capital letter again ([7e03f1d](https://github.com/dilex42/rp-test/commit/7e03f1dded1ca3ba3bbaff18fcea6fe4128532b1))
+* fix capital pre-commit ([cd717ca](https://github.com/dilex42/rp-test/commit/cd717cab3014af5b9ea6719d1971cc3e0e82ff14))
+
+
+### Documentation
+
+* **project2:** add docs ([9f91bf2](https://github.com/dilex42/rp-test/commit/9f91bf2aae7cad546a68f35d8e5e6d522db0ba7e))
+
+
+### Refactor
+
+* better code ([29ef5f1](https://github.com/dilex42/rp-test/commit/29ef5f1f7f300b92c9eb43ebddad4fa64fef0c22))
+
+
+### Style
+
+* add style ([9eb50a7](https://github.com/dilex42/rp-test/commit/9eb50a760ad79cbd884648a2ddef707ec3aa545c))
+
+
+### test
+
+* drop support for Node 42 ([1051ba7](https://github.com/dilex42/rp-test/commit/1051ba7fce4204fdc5900f1c766fe631baadf900))
+
 ## [2.1.0](https://github.com/dilex42/rp-test/compare/v2.0.0...v2.1.0) (2022-04-11)
 
 
