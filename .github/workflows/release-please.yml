@@ -14,14 +14,6 @@ jobs:
           changelog-types: >
             [
               {"type":"feat","section":"Features","hidden":false},
-              {"type":"Feat","section":"Features","hidden":false},
-              {"type":"fix","section":"Bug Fixes","hidden":false},
-              {"type":"Fix","section":"Bug Fixes","hidden":false},
-              {"type":"docs","section":"Documentation","hidden":false},
-              {"type":"refactor","section":"Refactor","hidden":false},
-              {"type":"style","section":"Style","hidden":false},
-              {"type":"chore","hidden":true},
-              {"type":"feat","section":"Features","hidden":false},
               {"type":"feature","section":"Features","hidden":false},
               {"type":"Feat","section":"Features","hidden":false},
               {"type":"fix","section":"Bug Fixes","hidden":false},
@@ -30,6 +22,11 @@ jobs:
               {"type":"refactor","section":"Code Refactoring","hidden":false},
               {"type":"perf","section":"Performance Improvements","hidden":false},
               {"type":"test","section":"Tests","hidden":false},
-              {"type":"deps","section":"Dependencies","hidden":true}
+              {"type":"deps","section":"Dependencies","hidden":false},
+              {"type":"style","section":"Styles","hidden":true},
+              {"type":"chore","section":"Miscellaneous Chores","hidden":true}
+              {"type":"build","section":"Build System","hidden":true},
+              {"type":"ci","section":"Continuous Integration","hidden":true},
+              {"type":"revert","section":"Reverts","hidden":true}
             ]
           # package-name: rp-test
