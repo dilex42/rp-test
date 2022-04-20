@@ -1,5 +1,27 @@
 # Changelog
 
+## [4.0.0](https://github.com/dilex42/rp-test/compare/v3.0.0...v4.0.0) (2022-04-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* bump version after release please implementation
+
+### Features
+
+* add release please ([#31](https://github.com/dilex42/rp-test/issues/31)) ([f4f1c3c](https://github.com/dilex42/rp-test/commit/f4f1c3c34d7b1725b622f882c605b1e38ef8b0dd))
+* try again new ([d17c117](https://github.com/dilex42/rp-test/commit/d17c117c2c080f6dc7690d4a899f974f44e52427))
+
+
+### Bug Fixes
+
+* fix comma again ([81acfe0](https://github.com/dilex42/rp-test/commit/81acfe0621bda2e4033a64986f704f33ad0a5b3d))
+* remove comma ([e94541c](https://github.com/dilex42/rp-test/commit/e94541c6e2c69745b8733b4b5769d912b53e1621))
+* **sss:** stuff ([#34](https://github.com/dilex42/rp-test/issues/34)) ([3b82ec9](https://github.com/dilex42/rp-test/commit/3b82ec95e8195c2a500950b28afc0316806f2538))
+* **test:** tsstsd ([2131eb6](https://github.com/dilex42/rp-test/commit/2131eb63aa7f88b0a3bb22c4258e4cb275fc9eed))
+* try ([2388b82](https://github.com/dilex42/rp-test/commit/2388b82329baa7e9c9bd4d87bca3c4e0d5afae14))
+* try again ([66210ec](https://github.com/dilex42/rp-test/commit/66210ec6dbbaabd9738962010f52e8d0d2626e09))
+
 ## [3.0.0](https://github.com/dilex42/rp-test/compare/v2.1.0...v3.0.0) (2022-04-13)
 
 
