@@ -10,7 +10,7 @@ jobs:
       - uses: google-github-actions/release-please-action@v3
         with:
           release-type: simple
-          default-branch: main
+          default-branch: develop
           changelog-types: >
             [
               {"type":"feat","section":"Features","hidden":false},
