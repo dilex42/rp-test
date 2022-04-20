@@ -1,5 +1,12 @@
 # Changelog
 
+### [4.0.1](https://github.com/dilex42/rp-test/compare/v4.0.0...v4.0.1) (2022-04-20)
+
+
+### Miscellaneous Chores
+
+* remove custom commit types ([#35](https://github.com/dilex42/rp-test/issues/35)) ([9cb4379](https://github.com/dilex42/rp-test/commit/9cb437935778496b68abef73457380b1c7539eb7))
+
 ## [4.0.0](https://github.com/dilex42/rp-test/compare/v3.0.0...v4.0.0) (2022-04-20)
 
 
