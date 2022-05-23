@@ -7,8 +7,8 @@ import sys
 def changer(m):
     print(m)
     dat = m.group(0)
-    # return f'[{dat}](https://github.com/dilex42/rp-test/issues/{dat})'
-    return f'[{dat}](https://macpaw.atlassian.net/browse/{dat})'
+    return f'[{dat}](https://github.com/dilex42/rp-test/issues/{dat})'
+    # return f'[{dat}](https://macpaw.atlassian.net/browse/{dat})'
 
 # repo = "dilex42/rp-test"
 repo = sys.argv[1]
