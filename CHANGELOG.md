@@ -1,5 +1,12 @@
 # Changelog
 
+### [4.2.1](https://github.com/dilex42/rp-test/compare/v4.2.0...v4.2.1) (2022-05-23)
+
+
+### Bug Fixes
+
+* dat-856 escaping ([ceee7ea](https://github.com/dilex42/rp-test/commit/ceee7ead526d5e3f69ef58a9a1afe5abf9dc2fdc))
+
 ## [4.2.0](https://github.com/dilex42/rp-test/compare/v4.1.1...v4.2.0) (2022-05-23)
 
 
