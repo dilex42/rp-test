@@ -30,3 +30,19 @@ jobs:
               {"type":"revert","section":"Reverts","hidden":true}
             ]
           # package-name: rp-test
+  update-changelog:
+    if: ${{ steps.release-please.outputs.release_created }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo content
+        uses: actions/checkout@v2 # checkout the repository content to github runner.
+      - name: setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9 #install the python needed
+      - name: execute py script # run the run.py to get the latest data
+        run: |
+          pip install requests
+          python update_release.py dilex42/rp-test
+        env:
+          GH_TOKEN: ${{ github.token }} # if run.py requires passwords..etc, set it as secrets
