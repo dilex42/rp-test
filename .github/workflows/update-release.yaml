@@ -1,6 +1,9 @@
 on:
-  release:
-    types: [published]
+  # release:
+  #   types: [published]
+  push:
+    tags:
+      - 'v*'
 name:
   update-release-notes
 jobs:
