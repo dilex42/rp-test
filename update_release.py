@@ -1,10 +1,19 @@
 import requests
 import os
 import json
+import re
+import sys
 
-repo = "dilex42/rp-test"
+def changer(m):
+    print(m)
+    dat = m.group(0)
+    # return f'[{dat}](https://github.com/dilex42/rp-test/issues/{dat})'
+    return f'[{dat}](https://macpaw.atlassian.net/browse/{dat})'
+
+# repo = "dilex42/rp-test"
+repo = sys.argv[1]
+print(repo)
 GH_TOKEN = os.environ["GH_TOKEN"]
-print(GH_TOKEN)
 
 url = f"https://api.github.com/repos/{repo}/releases/latest"
 headers = {
@@ -22,7 +31,7 @@ print(release_id)
 print(release_body)
 
 payload = {
-    "body": f"{release_body} test"
+    "body": re.sub("(?:(?:DAT)|(?:dat))-\d+",changer,release_body)
 }
 
 patch_url = f"https://api.github.com/repos/{repo}/releases/{release_id}"

@@ -19,6 +19,6 @@ jobs:
       - name: execute py script # run the run.py to get the latest data
         run: |
           pip install requests
-          python update_release.py
+          python update_release.py dilex42/rp-test
         env:
           GH_TOKEN: ${{ github.token }} # if run.py requires passwords..etc, set it as secrets
