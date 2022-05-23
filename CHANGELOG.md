@@ -1,5 +1,17 @@
 # Changelog
 
+### [4.1.1](https://github.com/dilex42/rp-test/compare/v4.1.0...v4.1.1) (2022-05-23)
+
+
+### Bug Fixes
+
+* change update workflow ([aa62187](https://github.com/dilex42/rp-test/commit/aa62187c8c9f34566d21251bd3df31c7c727368a))
+
+
+### Miscellaneous Chores
+
+* Merge branch 'develop' of https://github.com/dilex42/rp-test into develop ([5b94e21](https://github.com/dilex42/rp-test/commit/5b94e21ac0544d58ace0b5c33ded8d8c883c1fa7))
+
 ## [4.1.0](https://github.com/dilex42/rp-test/compare/v4.0.1...v4.1.0) (2022-05-23)
 
 
