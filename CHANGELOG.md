@@ -1,5 +1,17 @@
 # Changelog
 
+## [4.1.0](https://github.com/dilex42/rp-test/compare/v4.0.1...v4.1.0) (2022-05-23)
+
+
+### Features
+
+* add release updater ([26e9be6](https://github.com/dilex42/rp-test/commit/26e9be6a055e8baee139e2a65674c973de44742a))
+
+
+### Bug Fixes
+
+* file2 ([d3cfdc5](https://github.com/dilex42/rp-test/commit/d3cfdc523a75131e8922a5f8191788c370e4ccfd))
+
 ### [4.0.1](https://github.com/dilex42/rp-test/compare/v4.0.0...v4.0.1) (2022-04-20)
 
 
