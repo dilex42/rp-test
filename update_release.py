@@ -19,11 +19,11 @@ release_body = resp_json["body"]
 print(release_id)
 print(release_body)
 
-# payload = {
-#     "body": f"{release_body} test"
-# }
+payload = {
+    "body": f"{release_body} test"
+}
 
-# patch_url = f"https://api.github.com/repos/{repo}/releases/{release_id}"
-# resp_p = requests.patch(patch_url,headers=headers,data=payload)
-# print(resp_p)
-# print(resp_p.text)
+patch_url = f"https://api.github.com/repos/{repo}/releases/{release_id}"
+resp_p = requests.patch(patch_url,headers=headers,data=payload)
+print(resp_p)
+print(resp_p.text)
