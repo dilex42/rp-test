@@ -1,8 +1,10 @@
 import requests
 import os
+import json
 
 repo = "dilex42/rp-test"
 GH_TOKEN = os.environ["GH_TOKEN"]
+print(GH_TOKEN)
 
 url = f"https://api.github.com/repos/{repo}/releases/latest"
 headers = {
@@ -24,6 +26,6 @@ payload = {
 }
 
 patch_url = f"https://api.github.com/repos/{repo}/releases/{release_id}"
-resp_p = requests.patch(patch_url,headers=headers,data=payload)
+resp_p = requests.patch(patch_url,headers=headers,data=json.dumps(payload))
 print(resp_p)
 print(resp_p.text)
