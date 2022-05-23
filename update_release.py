@@ -31,7 +31,7 @@ print(release_id)
 print(release_body)
 
 payload = {
-    "body": re.sub("(?:(?:DAT)|(?:dat))-\d+",changer,release_body)
+    "body": re.sub("(?<!\[)\b(?:(?:DAT)|(?:dat))-\d+\b(?![\w\s]*[\])])",changer,release_body)
 }
 
 patch_url = f"https://api.github.com/repos/{repo}/releases/{release_id}"
