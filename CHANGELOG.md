@@ -1,5 +1,25 @@
 # Changelog
 
+## [4.2.0](https://github.com/dilex42/rp-test/compare/v4.1.1...v4.2.0) (2022-05-23)
+
+
+### Features
+
+* DAT-777 change updater ([110c865](https://github.com/dilex42/rp-test/commit/110c865791c2329fdb8df69cffc008cc965dc54d))
+
+
+### Bug Fixes
+
+* change release workflow ([cc94a5f](https://github.com/dilex42/rp-test/commit/cc94a5f58964f7b0eb71df2fcc3b1c7c7d2ee49f))
+* change update workflow ([7154f9b](https://github.com/dilex42/rp-test/commit/7154f9b0958cf3b794d4fd053442a9e691e66c95))
+* change workflow ([6b711a0](https://github.com/dilex42/rp-test/commit/6b711a0ebfd2a746bd55489b932234291ef97fc1))
+* fix path ([91a2c7f](https://github.com/dilex42/rp-test/commit/91a2c7f5f6afec66bc135e089ff46fc3dde0c83d))
+* fix update py ([d1bc1d4](https://github.com/dilex42/rp-test/commit/d1bc1d419a4ce384280e9aede285b8399a82200a))
+* update workflow ([7e53c82](https://github.com/dilex42/rp-test/commit/7e53c82f22985b97dceca7ee6a1445bf1bb5d20c))
+* updater json ([462bf7d](https://github.com/dilex42/rp-test/commit/462bf7da6a855329b47b365675dc76d176833b65))
+* workflow & updater ([dc2dcb1](https://github.com/dilex42/rp-test/commit/dc2dcb1464aa442a4a755a0b63f1e5c523d14b38))
+* workflow final? ([f717ae1](https://github.com/dilex42/rp-test/commit/f717ae18e5839ca6c1d18f90db9d34d499366d03))
+
 ### [4.1.1](https://github.com/dilex42/rp-test/compare/v4.1.0...v4.1.1) (2022-05-23)
 
 
