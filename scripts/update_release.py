@@ -18,7 +18,7 @@ GH_TOKEN = os.environ["GH_TOKEN"]
 url = f"https://api.github.com/repos/{repo}/releases/latest"
 headers = {
     "Accept":"application/vnd.github.v3+json",
-    "Authorization": f"token {GH_TOKEN}"
+    "Authorization": f"Bearer {GH_TOKEN}"
 }
 
 resp = requests.get(url,headers=headers)

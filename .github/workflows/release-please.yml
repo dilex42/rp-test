@@ -44,10 +44,10 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.9 #install the python needed
-      - name: execute py script # run the run.py to get the latest data
+      - name: execute changer # run the run.py to get the latest data
         run: |
           python -m pip install --upgrade pip
           pip install requests
-          python update_release.py dilex42/rp-test
+          python ./scripts/update_release.py ${{ github.repository }}
         env:
           GH_TOKEN: ${{ github.token }} # if run.py requires passwords..etc, set it as secrets
