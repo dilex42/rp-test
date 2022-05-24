@@ -39,15 +39,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo content
-        uses: actions/checkout@v2 # checkout the repository content to github runner.
+        uses: actions/checkout@v2
       - name: setup python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.9 #install the python needed
-      - name: execute changer # run the run.py to get the latest data
+          python-version: 3.9 
+      - name: execute changer
         run: |
           python -m pip install --upgrade pip
           pip install requests
           python ./scripts/update_release.py ${{ github.repository }}
         env:
-          GH_TOKEN: ${{ github.token }} # if run.py requires passwords..etc, set it as secrets
+          GH_TOKEN: ${{ github.token }}
