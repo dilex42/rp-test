@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.4.0](https://github.com/dilex42/rp-test/compare/v4.3.0...v4.4.0) (2022-05-24)
+
+
+### Features
+
+* test dat-778 release updater ([1e121d3](https://github.com/dilex42/rp-test/commit/1e121d337f439d5e6045ebc35c58bd3026e601af))
+
 ## [4.3.0](https://github.com/dilex42/rp-test/compare/v4.2.1...v4.3.0) (2022-05-24)
 
 
